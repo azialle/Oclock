@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Oclock</title>
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <script src="//cdn.jsdelivr.net/npm/globe.gl"></script>
+  </head>
+  <body>
+    <div class="search-container">
+      <div class="search-box">
+        <img src="static/img/search.svg" class="search-icon" alt="Search" />
+        <input
+          type="text"
+          id="countrySearch"
+          placeholder="SEARCH COUNTRY..."
+          autocomplete="off"
+        />
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </div>
+
+    <div id="globeViz"></div>
+
+    <div class="controls">
+      <span class="toggle-label">Show All Times</span>
+      <label class="switch">
+        <input type="checkbox" id="labelToggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <footer class="app-footer">
+      <a href="https://github.com/azialle/Oclock" target="_blank" rel="noopener"
+        >Oclock Repo by azialle</a
+      >
+      <span class="footer-divider">|</span>
+      <a href="https://globe.gl/" target="_blank" rel="noopener"
+        >Powered by Globe.gl</a
+      >
+    </footer>
+
+    <script type="module" src="static/js/app.js"></script>
+  </body>
+</html>
