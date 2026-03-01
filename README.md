@@ -3,6 +3,7 @@
 An interactive 3D WebGL globe that visualizes real-time daylight cycles. Built with Globe.gl and pre-processed spatial data pipeline.
 
 ![GIF of Oclock](demo/demo.gif)
+
 [**View Live Demo**](https://azialle.github.io/Oclock/)
 
 ## Data Source
